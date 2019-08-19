@@ -13,25 +13,44 @@
 
 #top_menu_container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 85%;
   padding: 35px;
 }
 
 #slogan{
-  flex: 2;
+  width: 70%;
 }
 
-#contacts_menu{
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
+#barra_pesquisa{
+  width: 15%;
+  height: 30px;
+}
+
+#pesquisa{
+  border-style: none;
+  border-bottom: 1px solid #d2d2d2;
+  outline: none;
 }
 
 #main{
   border: 1px dotted black;
   width: 85%;
   min-height: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#conteudo{
+  width: 75%;
+  min-height: 1000px;
+  border: 1px dotted #d2d2d2;
+}
+
+#menu_direita{
+  width: 25%;
+  min-height: 1000px;
+  border: 1px dotted #d2d2d2;
 }
 
 #footer{
