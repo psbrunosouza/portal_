@@ -1,8 +1,8 @@
 #container{
-  border: 1px dotted white;
+  border: 1px dotted #d2d2d2;
   width:100%;
   min-height: 1400px;
-  background-color: #ae3333;
+  background-color: #fff;
 }
 
 #top_line{
@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   width: 85%;
+  padding: 35px;
 }
 
 #slogan{
@@ -28,7 +29,14 @@
 }
 
 #main{
-  border: 1px dotted white;
+  border: 1px dotted black;
   width: 85%;
   min-height: 1000px;
+}
+
+#footer{
+  border: 1px dotted black;
+  width: 85%;
+  min-height: 350px;
+  margin-top: 150px;
 }
