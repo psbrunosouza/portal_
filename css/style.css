@@ -40,12 +40,12 @@
 #top-menu{
   width: 85%;
   height: 50px;
-  border: 1px dotted #000;
+  border: 1px solid #000;
 }
 
 .menu-item{
   display: inline-block;
-  border: 1px dotted #000;
+  border: 1px solid #000;
   width: 120px;
   height: 50px;
 }
@@ -59,7 +59,7 @@
 
 /* MAIN -> CONTEUDO DO SITE */
 #main{
-  border: 1px dotted black;
+  border: 1px solid black;
   width: 85%;
   min-height: 1000px;
   display: flex;
@@ -69,18 +69,18 @@
 #conteudo{
   width: 75%;
   min-height: 1000px;
-  border: 1px dotted #d2d2d2;
+  border: 1px solid #d2d2d2;
 }
 
 #menu_direita{
   width: 25%;
   min-height: 1000px;
-  border: 1px dotted #d2d2d2;
+  border: 1px solid #d2d2d2;
 }
 
 /* FOOTER -> RODAPÉ DO SITE */
 #footer{
-  border: 1px dotted black;
+  border: 1px solid black;
   width: 85%;
   min-height: 350px;
   margin-top: 150px;
