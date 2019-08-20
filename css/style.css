@@ -44,7 +44,7 @@
 }
 
 .menu-item{
-  float: left;
+  display: inline-block;
   border: 1px dotted #000;
   width: 120px;
   height: 50px;
@@ -52,7 +52,9 @@
 
 .menu-item a{
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 /* MAIN -> CONTEUDO DO SITE */
