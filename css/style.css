@@ -1,3 +1,4 @@
+/* ANOTHER -> OUTROS */
 #container{
   border: 1px dotted #d2d2d2;
   width:100%;
@@ -11,7 +12,8 @@
   background-color: green;
 }
 
-#top_menu_container{
+/* HEADER -> CABEÇALHO DO SITE */
+#header{
   display: flex;
   justify-content: space-around;
   width: 85%;
@@ -33,6 +35,27 @@
   outline: none;
 }
 
+/*MENU -> TOP BAR MENU DO SITE*/
+
+#top-menu{
+  width: 85%;
+  height: 50px;
+  border: 1px dotted #000;
+}
+
+.menu-item{
+  float: left;
+  border: 1px dotted #000;
+  width: 120px;
+  height: 50px;
+}
+
+.menu-item a{
+  display: flex;
+  justify-content: center;
+}
+
+/* MAIN -> CONTEUDO DO SITE */
 #main{
   border: 1px dotted black;
   width: 85%;
@@ -53,9 +76,35 @@
   border: 1px dotted #d2d2d2;
 }
 
+/* FOOTER -> RODAPÉ DO SITE */
 #footer{
   border: 1px dotted black;
   width: 85%;
   min-height: 350px;
   margin-top: 150px;
+}
+
+/* CLASSES RESIZE */
+.dim5{
+  height: 5px;
+}
+
+.dim10{
+  height: 10px;
+}
+
+.dim20{
+  height: 20px;
+}
+.dim30{
+  height: 30px;
+}
+.dim40{
+  height: 40px;
+}
+.dim50{
+  height: 50px;
+}
+.dim60{
+  height: 60px;
 }
