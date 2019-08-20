@@ -7,13 +7,15 @@
 }
 
 #top_line{
+  margin: auto;
   width: 85%;
   height: 0.5em;
-  background-color: green;
+  background-color: #3B413C;
 }
 
 /* HEADER -> CABEÇALHO DO SITE */
 #header{
+  margin: auto;
   display: flex;
   justify-content: space-around;
   width: 85%;
@@ -38,28 +40,44 @@
 /*MENU -> TOP BAR MENU DO SITE*/
 
 #top-menu{
+  margin: auto;
   width: 85%;
   height: 50px;
-  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  background-color: #252422;
+  border-radius: 20px;
 }
 
 .menu-item{
-  display: inline-block;
-  border: 1px solid #000;
+  float: left;
   width: 120px;
   height: 50px;
+  background-color: #EB5E28;
+  margin-right: 5px;
 }
 
 .menu-item a{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  color: #FFFCF2;
+  text-decoration: none;
+}
+
+.menu-item:hover{
+  background-color: #3B413C;
+}
+
+.menu-item:hover a{
+  color: #fff;
 }
 
 /* MAIN -> CONTEUDO DO SITE */
 #main{
-  border: 1px solid black;
+  margin: auto;
+  border: 1px solid #CCC5B9;
+  border-radius: 15px;
   width: 85%;
   min-height: 1000px;
   display: flex;
@@ -69,17 +87,19 @@
 #conteudo{
   width: 75%;
   min-height: 1000px;
-  border: 1px solid #d2d2d2;
 }
 
 #menu_direita{
+  border: 1px solid #CCC5B9;
+  border-radius: 0 15px 15px 0;
   width: 25%;
   min-height: 1000px;
-  border: 1px solid #d2d2d2;
+  background-color: #FFFCF2;
 }
 
 /* FOOTER -> RODAPÉ DO SITE */
 #footer{
+  margin: auto;
   border: 1px solid black;
   width: 85%;
   min-height: 350px;
